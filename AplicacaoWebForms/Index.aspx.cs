@@ -16,6 +16,9 @@ namespace AplicacaoWebForms
         public List<Cadastros> Pessoa = new List<Cadastros>();
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Pagina Login:
+            ctrLogin.lblMenssagemText = "este é o form principal!";
+
             Contatos.Add(new Contato() {Name = "Jonatas", Id = 1 });
             Contatos.Add(new Contato() { Name = "Henrique", Id = 2 });
             Contatos.Add(new Contato() { Name = "Washington", Id = 3 });

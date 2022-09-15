@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="AplicacaoWebForms.Index" %>
 
+<%@ Register Src="~/Login.ascx" TagPrefix="uc1" TagName="Login" %>
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,6 +23,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div>
+            <uc1:Login runat="server" ID="ctrLogin" />
+        </div>
         <div style="margin-left: 0px">
 
             <asp:Label CssClass="lblNomeClass" ID="lblNome" runat="server" Text="Escreva seu nome pra receber uma menssgem..."></asp:Label>

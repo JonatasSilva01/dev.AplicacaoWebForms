@@ -11,26 +11,8 @@ namespace AplicacaoWebForms
 {
 
 
-    public partial class Index
+    public partial class Login
     {
-
-        /// <summary>
-        /// Controle form1.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// Controle ctrLogin.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::AplicacaoWebForms.Login ctrLogin;
 
         /// <summary>
         /// Controle lblNome.
@@ -51,48 +33,39 @@ namespace AplicacaoWebForms
         protected global::System.Web.UI.WebControls.TextBox TxtNome;
 
         /// <summary>
-        /// Controle Telefone.
+        /// Controle lblSenha.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Telefone;
+        protected global::System.Web.UI.WebControls.Label lblSenha;
 
         /// <summary>
-        /// Controle btnEnviarNome.
+        /// Controle TxtSenha.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEnviarNome;
+        protected global::System.Web.UI.WebControls.TextBox TxtSenha;
 
         /// <summary>
-        /// Controle ddlContatos.
+        /// Controle btnEnviar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlContatos;
+        protected global::System.Web.UI.WebControls.Button btnEnviar;
 
         /// <summary>
-        /// Controle selectManual2.
+        /// Controle lblMenssagem.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl selectManual2;
-
-        /// <summary>
-        /// Controle GridView1.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.Label lblMenssagem;
     }
 }

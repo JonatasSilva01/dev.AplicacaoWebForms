@@ -13,6 +13,7 @@ namespace AplicacaoWebForms
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ctrLogin.lblMenssagemText = "Este é o form principal!";
             mostrarLista();
         }
 

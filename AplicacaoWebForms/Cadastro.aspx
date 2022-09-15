@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="AplicacaoWebForms.Cadastro" %>
 
+<%@ Register Src="~/Login.ascx" TagPrefix="uc1" TagName="Login" %>
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -26,6 +29,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div>
+            <uc1:Login ID="ctrLogin" runat="server" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
         <div>
             <asp:Panel CssClass="formulario-cadastro" ID="pnCadastro" runat="server">
                 <div class="StyleBlock">
